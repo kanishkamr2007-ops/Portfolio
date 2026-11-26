@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Kanishka M R — Computer Science and Engineering student at Sri Shakthi Institute of Engineering and Technology, Coimbatore. Aspiring Software & Web Developer.">
+  <meta name="theme-color" content="#333D24">
+  <title>Kanishka M R | Computer Science &amp; Engineering Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link visually-hidden" href="#main-content">Skip to main content</a>
+
+  <!-- Subtle scroll progress hairline -->
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Subtle pointer spotlight for fine pointers -->
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Fixed Transparent Navigation Bar -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="site-logo" href="#home" aria-label="Kanishka M R — Back to top">
+        <span class="logo-monogram" aria-hidden="true">KMR</span>
+        <span class="logo-name">Kanishka M R</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <button
+          class="menu-button"
+          type="button"
+          popovertarget="site-menu"
+          popovertargetaction="toggle"
+          aria-controls="site-menu"
+          aria-expanded="false"
+        >
+          <svg class="menu-icon" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+            <line x1="4" y1="7" x2="20" y2="7"></line>
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <line x1="4" y1="17" x2="20" y2="17"></line>
+          </svg>
+          <span>Menu</span>
+        </button>
+
+        <ul id="site-menu" class="site-menu" popover="auto">
+          <li><a href="#home" aria-current="true">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- 1. HERO SECTION -->
+    <section id="home" class="hero section-olive" tabindex="-1" aria-labelledby="hero-heading">
+      <div class="hero-ambient" aria-hidden="true">
+        <div class="ambient-ring ambient-ring-1 parallax-layer" data-parallax="0.08"></div>
+        <div class="ambient-ring ambient-ring-2 parallax-layer" data-parallax="-0.06"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-greeting reveal-text">
+            <span class="greeting-dot" aria-hidden="true"></span>
+            HELLO, I'M KANISHKA M R
+          </p>
+
+          <h1 id="hero-heading" class="hero-headline reveal-text">
+            Turning Ideas Into <em>Digital Experiences.</em>
+          </h1>
+
+          <div class="hero-roles reveal-text">
+            <p class="role-primary">Computer Science Engineering Student</p>
+            <p class="role-secondary">Aspiring Software Developer &nbsp;|&nbsp; Web Developer &nbsp;|&nbsp; Tech Enthusiast</p>
+          </div>
+
+          <p class="hero-meta reveal-text">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 21s-6-5.33-6-10a6 6 0 1 1 12 0c0 4.67-6 10-6 10Z"></path>
+              <circle cx="12" cy="11" r="2.2"></circle>
+            </svg>
+            <span>Coimbatore, Tamil Nadu &nbsp;&middot;&nbsp; B.E. CSE (2nd Year &middot; CGPA 8.82)</span>
+          </p>
+
+          <div class="hero-actions reveal-text">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Work</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="assets/kanishka-mr-resume.pdf" download="Kanishka-MR-Resume.pdf" class="btn btn-secondary">
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-stage parallax-layer" data-parallax="-0.04">
+            <div class="portrait-glow" aria-hidden="true"></div>
+            <div class="portrait-orbit" aria-hidden="true"></div>
+            <figure class="portrait-frame">
+              <img
+                src="assets/kanishka-portrait.jpg"
+                alt="Portrait of Kanishka M R in formal dark blazer and white collared shirt"
+                width="790"
+                height="1024"
+                fetchpriority="high"
+                decoding="async"
+              >
+            </figure>
+            <div class="portrait-caption-pill">
+              <span class="pill-label">B.E. CSE</span>
+              <span class="pill-divider" aria-hidden="true"></span>
+              <span class="pill-value">CGPA 8.82</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About Me section">
+        <span class="scroll-cue-text">Scroll</span>
+        <span class="scroll-cue-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section id="about" class="about section-beige" tabindex="-1" aria-labelledby="about-heading">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">01 &nbsp;/&nbsp; About Me</p>
+          <h2 id="about-heading" class="section-title">Grounded in Fundamentals, Driven by Curiosity.</h2>
+        </header>
+
+        <div class="about-layout">
+          <div class="about-intro-card surface-cream reveal">
+            <div class="card-kicker">
+              <svg class="animated-icon" aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"></path>
+              </svg>
+              <span>Professional Introduction</span>
+            </div>
+            <p class="about-lead">
+              Motivated Computer Science and Engineering student with foundational knowledge of programming, web development, and database management.
+            </p>
+            <p class="about-body">
+              Interested in software development and problem-solving, and seeking an entry-level opportunity to apply technical skills, learn new technologies, and contribute to a collaborative team.
+            </p>
+            <div class="about-location-strip">
+              <span>Sri Shakthi Institute of Engineering and Technology</span>
+              <span aria-hidden="true">&bull;</span>
+              <span>Coimbatore, Tamil Nadu</span>
+            </div>
+          </div>
+
+          <div class="about-pillars">
+            <article class="pillar-card surface-olive reveal">
+              <div class="pillar-icon-wrap" aria-hidden="true">
+                <svg class="animated-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <h3>Educational Background</h3>
+              <p>Pursuing <strong>B.E. in Computer Science and Engineering</strong> (2nd Year) with an academic score of <strong>8.82 CGPA</strong> at Sri Shakthi Institute of Engineering and Technology.</p>
+            </article>
+
+            <article class="pillar-card surface-cream reveal">
+              <div class="pillar-icon-wrap" aria-hidden="true">
+                <svg class="animated-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3>Technical Interests</h3>
+              <p>Software development, front-end web technologies, structured database management, problem-solving, and cloud computing fundamentals.</p>
+            </article>
+
+            <article class="pillar-card surface-cream reveal">
+              <div class="pillar-icon-wrap" aria-hidden="true">
+                <svg class="animated-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="9"></circle>
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <line x1="12" y1="3" x2="12" y2="5"></line>
+                </svg>
+              </div>
+              <h3>Career Goals</h3>
+              <p>Seeking an entry-level opportunity to apply engineering fundamentals to real-world software, expand technical depth, and grow inside a collaborative team.</p>
+            </article>
+
+            <article class="pillar-card surface-olive reveal">
+              <div class="pillar-icon-wrap" aria-hidden="true">
+                <svg class="animated-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <h3>Personal Strengths</h3>
+              <ul class="strength-pills" aria-label="Personal strengths and soft skills">
+                <li>Teamwork</li>
+                <li>Communication</li>
+                <li>Problem-solving</li>
+                <li>Adaptability</li>
+                <li>Time management</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SKILLS SECTION -->
+    <section id="skills" class="skills section-cream" tabindex="-1" aria-labelledby="skills-heading">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">02 &nbsp;/&nbsp; Technical Toolkit</p>
+          <h2 id="skills-heading" class="section-title">Skills &amp; Core Foundations</h2>
+          <p class="section-subtitle">
+            Technical competencies drawn directly from academic coursework, project work, and self-directed study.
+          </p>
+        </header>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-index" aria-hidden="true">01</span>
+              <svg class="skill-icon" aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 9l3 3-3 3"></path>
+                <line x1="13" y1="15" x2="17" y2="15"></line>
+                <rect x="3" y="4" width="18" height="16" rx="3"></rect>
+              </svg>
+            </div>
+            <h3>Programming Languages</h3>
+            <ul class="skill-list">
+              <li>
+                <span class="skill-name">Java</span>
+                <span class="skill-note">Core language</span>
+              </li>
+              <li>
+                <span class="skill-name">Python</span>
+                <span class="skill-note">Basics</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-index" aria-hidden="true">02</span>
+              <svg class="skill-icon" aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"></circle>
+                <line x1="3.6" y1="9" x2="20.4" y2="9"></line>
+                <line x1="3.6" y1="15" x2="20.4" y2="15"></line>
+                <path d="M12 3a14 14 0 0 0 0 18"></path>
+                <path d="M12 3a14 14 0 0 1 0 18"></path>
+              </svg>
+            </div>
+            <h3>Web Development</h3>
+            <ul class="skill-list">
+              <li><span class="skill-name">HTML</span><span class="skill-note">Semantic markup</span></li>
+              <li><span class="skill-name">CSS</span><span class="skill-note">Styling &amp; layout</span></li>
+              <li><span class="skill-name">JavaScript</span><span class="skill-note">Client-side logic</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-index" aria-hidden="true">03</span>
+              <svg class="skill-icon" aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="6" rx="8" ry="3"></ellipse>
+                <path d="M4 6v6c0 1.66 3.58 3 8 3s8-1.34 8-3V6"></path>
+                <path d="M4 12v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"></path>
+              </svg>
+            </div>
+            <h3>Database Management</h3>
+            <ul class="skill-list">
+              <li><span class="skill-name">MySQL</span><span class="skill-note">Relational queries</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-index" aria-hidden="true">04</span>
+              <svg class="skill-icon" aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+              </svg>
+            </div>
+            <h3>Tools &amp; Technologies</h3>
+            <ul class="skill-list">
+              <li><span class="skill-name">VS Code</span><span class="skill-note">Editor</span></li>
+              <li><span class="skill-name">Git</span><span class="skill-note">Version control</span></li>
+              <li><span class="skill-name">GitHub</span><span class="skill-note">Collaboration</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card skill-card-wide reveal">
+            <div class="skill-card-head">
+              <span class="skill-index" aria-hidden="true">05</span>
+              <svg class="skill-icon" aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="4" width="6" height="6" rx="1"></rect>
+                <rect x="14" y="4" width="6" height="6" rx="1"></rect>
+                <rect x="9" y="14" width="6" height="6" rx="1"></rect>
+                <path d="M7 10v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2"></path>
+              </svg>
+            </div>
+            <h3>Core Computer Science Concepts</h3>
+            <ul class="skill-list skill-list-inline">
+              <li><span class="skill-name">Object-Oriented Programming</span></li>
+              <li><span class="skill-name">DBMS</span></li>
+              <li><span class="skill-name">Data Structures</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROJECTS SECTION -->
+    <section id="projects" class="projects section-olive" tabindex="-1" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">03 &nbsp;/&nbsp; Selected Work</p>
+          <h2 id="projects-heading" class="section-title">Academic Projects</h2>
+          <p class="section-subtitle">
+            Concept-driven software and front-end web projects focused on real student and personal utility needs.
+          </p>
+        </header>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card reveal">
+            <div class="project-top">
+              <div class="project-badge-row">
+                <span class="project-number">Project 01</span>
+                <span class="project-status">Platform Concept</span>
+              </div>
+              <h3 class="project-title">Citadel &ndash; Personal Digital Security Vault</h3>
+              <p class="project-desc">
+                Designed a platform concept for organizing passwords, important documents, and private notes in one structured digital vault.
+              </p>
+            </div>
+
+            <div class="project-details">
+              <div class="project-block">
+                <h4>Planned Key Features</h4>
+                <ul class="feature-list">
+                  <li>Password generation for stronger account credentials</li>
+                  <li>Password-strength checking to evaluate credential quality</li>
+                  <li>Search and categorization across stored entries</li>
+                  <li>Management of multiple accounts for the same application</li>
+                </ul>
+              </div>
+
+              <div class="project-block">
+                <h4>Focus &amp; Concepts</h4>
+                <ul class="tech-tags" aria-label="Citadel focus areas">
+                  <li>Digital Security Concept</li>
+                  <li>Credential Organization</li>
+                  <li>Multi-Account Workflow</li>
+                </ul>
+              </div>
+            </div>
+
+            <footer class="project-footer">
+              <span class="repo-note">Repository / live demo link not yet published</span>
+              <a
+                href="#contact-form"
+                class="project-action-link"
+                data-prefill-subject="Inquiry about Citadel – Personal Digital Security Vault"
+              >
+                <span>Request Concept Details</span>
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </footer>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card project-card-beige reveal">
+            <div class="project-top">
+              <div class="project-badge-row">
+                <span class="project-number">Project 02</span>
+                <span class="project-status">Front-End Web Concept</span>
+              </div>
+              <h3 class="project-title">Campus Marketplace</h3>
+              <p class="project-desc">
+                Developed a front-end college marketplace concept for listing and discovering pre-owned items across a student community.
+              </p>
+            </div>
+
+            <div class="project-details">
+              <div class="project-block">
+                <h4>Key Features</h4>
+                <ul class="feature-list">
+                  <li>Structured product listings for pre-owned campus items</li>
+                  <li>Search functionality for quick item discovery</li>
+                  <li>Category filtering to narrow down listings</li>
+                  <li>Seller contact features connecting buyers and sellers</li>
+                </ul>
+              </div>
+
+              <div class="project-block">
+                <h4>Technologies &amp; Scope</h4>
+                <ul class="tech-tags" aria-label="Campus Marketplace technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Front-End UI</li>
+                </ul>
+              </div>
+            </div>
+
+            <footer class="project-footer">
+              <span class="repo-note">Repository / live demo link not yet published</span>
+              <a
+                href="#contact-form"
+                class="project-action-link"
+                data-prefill-subject="Inquiry about Campus Marketplace"
+              >
+                <span>Request Walkthrough</span>
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. EDUCATION & CERTIFICATIONS SECTION -->
+    <section id="education" class="education section-beige" tabindex="-1" aria-labelledby="education-heading">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">04 &nbsp;/&nbsp; Credentials</p>
+          <h2 id="education-heading" class="section-title">Education &amp; Certifications</h2>
+        </header>
+
+        <div class="education-grid">
+          <article class="edu-card edu-primary reveal">
+            <div class="edu-label">Academic Degree</div>
+            <h3>B.E. &ndash; Computer Science and Engineering</h3>
+            <p class="edu-institution">Sri Shakthi Institute of Engineering and Technology</p>
+            <p class="edu-location">Coimbatore, Tamil Nadu</p>
+            <div class="edu-highlight-row">
+              <div class="edu-metric">
+                <span class="metric-label">Current Standing</span>
+                <span class="metric-value">2nd Year</span>
+              </div>
+              <div class="edu-metric">
+                <span class="metric-label">Academic Result</span>
+                <span class="metric-value">CGPA: 8.82</span>
+              </div>
+            </div>
+          </article>
+
+          <div class="cert-stack">
+            <article class="cert-card reveal">
+              <div class="cert-header">
+                <span class="cert-issuer">NPTEL</span>
+                <span class="cert-score-badge">Score: 85%</span>
+              </div>
+              <h3>Cloud Computing</h3>
+              <p>Completed NPTEL certification in Cloud Computing, achieving an 85% examination score.</p>
+            </article>
+
+            <article class="cert-card reveal">
+              <div class="cert-header">
+                <span class="cert-issuer">Continuous Learning</span>
+                <span class="cert-score-badge cert-badge-muted">Completed</span>
+              </div>
+              <h3>Online Courses</h3>
+              <p>Supplementary online coursework reinforcing programming, web technologies, and core CS concepts.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. EXPERIENCE & ACHIEVEMENTS VERTICAL TIMELINE -->
+    <section id="achievements" class="achievements section-cream" tabindex="-1" aria-labelledby="achievements-heading">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">05 &nbsp;/&nbsp; Milestones</p>
+          <h2 id="achievements-heading" class="section-title">Achievements &amp; Learning Journey</h2>
+          <p class="section-subtitle">
+            Academic achievements, certifications, and project milestones documented in my resume.
+          </p>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-tag">Certification</span>
+              <h3>NPTEL &ndash; Cloud Computing (85%)</h3>
+              <p>Earned certification in Cloud Computing through NPTEL with a strong 85% score, strengthening foundational knowledge of cloud concepts.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-tag">Academic Standing</span>
+              <h3>2nd Year B.E. CSE &mdash; CGPA 8.82</h3>
+              <p>Maintaining an 8.82 CGPA at Sri Shakthi Institute of Engineering and Technology while studying Object-Oriented Programming, DBMS, and Data Structures.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-tag">Academic Projects</span>
+              <h3>Citadel &amp; Campus Marketplace Concepts</h3>
+              <p>Designed Citadel (Personal Digital Security Vault concept) and developed the Campus Marketplace front-end web concept for student communities.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-tag">Skill Development</span>
+              <h3>Online Courses &amp; Technical Foundations</h3>
+              <p>Pursued online courses alongside academic coursework in Java, Python (basics), HTML, CSS, JavaScript, MySQL, Git, and GitHub.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 7. CONTACT SECTION -->
+    <section id="contact" class="contact section-olive" tabindex="-1" aria-labelledby="contact-heading">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">06 &nbsp;/&nbsp; Get In Touch</p>
+          <h2 id="contact-heading" class="section-title">Have an Idea? Let's Build Something Great Together!</h2>
+          <p class="section-subtitle">
+            Open to entry-level software development opportunities, internships, and collaborative technical projects.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-channels reveal">
+            <div class="channel-card">
+              <div class="channel-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="channel-body">
+                <span class="channel-label">Email</span>
+                <a href="mailto:kanishkamr2007@gmail.com" class="channel-value">kanishkamr2007@gmail.com</a>
+              </div>
+              <button type="button" class="copy-email-btn" data-copy="kanishkamr2007@gmail.com" aria-label="Copy email address kanishkamr2007@gmail.com">
+                Copy
+              </button>
+            </div>
+
+            <a href="https://www.linkedin.com/in/kanishka-m-r-091400398" target="_blank" rel="noopener noreferrer" class="channel-card channel-card-link">
+              <div class="channel-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </div>
+              <div class="channel-body">
+                <span class="channel-label">LinkedIn</span>
+                <span class="channel-value">linkedin.com/in/kanishka-m-r-091400398</span>
+              </div>
+              <span class="channel-arrow" aria-hidden="true">&nearr;</span>
+            </a>
+
+            <div class="channel-card">
+              <div class="channel-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </div>
+              <div class="channel-body">
+                <span class="channel-label">GitHub</span>
+                <span class="channel-value channel-muted">Used in workflow &middot; Profile link on request</span>
+              </div>
+              <a href="mailto:kanishkamr2007@gmail.com?subject=GitHub%20Profile%20Request" class="channel-pill-link">Ask</a>
+            </div>
+
+            <a href="tel:+919566143343" class="channel-card channel-card-link">
+              <div class="channel-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="channel-body">
+                <span class="channel-label">Phone &amp; Location</span>
+                <span class="channel-value">9566143343 &middot; Coimbatore, Tamil Nadu</span>
+              </div>
+              <span class="channel-arrow" aria-hidden="true">&nearr;</span>
+            </a>
+          </div>
+
+          <form id="contact-form" class="contact-form reveal" aria-labelledby="form-heading" novalidate>
+            <h3 id="form-heading" class="form-title">Send a Message</h3>
+            <p class="form-note">Completing this form prepares an email directly to <strong>kanishkamr2007@gmail.com</strong>.</p>
+
+            <div class="field">
+              <label for="contact-name">Your Name <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="contact-name"
+                name="name"
+                autocomplete="name"
+                enterkeyhint="next"
+                required
+                minlength="2"
+                data-error="name-error"
+              >
+              <div id="name-error" class="error-msg">
+                <span role="img" aria-label="Error">!</span> Please enter your name (at least 2 characters).
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="contact-email">Email Address <span aria-hidden="true">*</span></label>
+              <span id="email-hint" class="field-hint">Format: you@example.com</span>
+              <input
+                type="email"
+                id="contact-email"
+                name="email"
+                autocomplete="email"
+                autocorrect="off"
+                autocapitalize="none"
+                spellcheck="false"
+                enterkeyhint="next"
+                required
+                aria-describedby="email-hint"
+                data-error="email-error"
+              >
+              <div id="email-error" class="error-msg">
+                <span role="img" aria-label="Error">!</span> Enter a valid email address in the format you@example.com.
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="contact-subject">Subject <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="contact-subject"
+                name="subject"
+                enterkeyhint="next"
+                required
+                minlength="3"
+                data-error="subject-error"
+              >
+              <div id="subject-error" class="error-msg">
+                <span role="img" aria-label="Error">!</span> Please enter a brief subject for your message.
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="contact-message">Message <span aria-hidden="true">*</span></label>
+              <textarea
+                id="contact-message"
+                name="message"
+                rows="4"
+                required
+                minlength="10"
+                data-error="message-error"
+              ></textarea>
+              <div id="message-error" class="error-msg">
+                <span role="img" aria-label="Error">!</span> Please include a message (at least 10 characters).
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Send via Email Client</span>
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </div>
+
+            <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-monogram" aria-hidden="true">KMR</span>
+        <div>
+          <p class="footer-name">Kanishka M R</p>
+          <p class="footer-tagline">Computer Science &amp; Engineering Student &middot; Coimbatore, Tamil Nadu</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="assets/kanishka-mr-resume.pdf" download="Kanishka-MR-Resume.pdf">Download Resume</a>
+        <a href="https://www.linkedin.com/in/kanishka-m-r-091400398" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:kanishkamr2007@gmail.com">Email</a>
+        <a href="#home">Back to Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
